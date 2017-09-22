@@ -1,10 +1,10 @@
 import java.lang.reflect.Field;
 
-public class Fields {
+public class Field {
   int x;
   int y;
 
-  public Fields(int x, int y) {
+  public Field(int x, int y) {
       this.x = x;
       this.y = y;
   }
@@ -28,7 +28,10 @@ public class Fields {
   }
 
 
-  //public boolean isTheFieldAvailable(){
-  //}
+  public boolean isTheFieldAvailable(){
+
+
+  }
+
 
 }

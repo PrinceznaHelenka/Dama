@@ -1,8 +1,16 @@
 public class TheGame {
 
-    public static void main(String [] args) {
+    Integer orderOfPlayers;
+    String player1;
+    String player2;
 
-        public  void startGame{
+    GameBoard gameBoard;
+
+
+
+    public static void main(String [] args) {
+        //ta všemocná!
+        public  void play{
             GameBoard.beginGame();
         }
     }

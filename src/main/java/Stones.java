@@ -1,25 +1,34 @@
 import java.lang.reflect.Field;
 
+
+//abstraktní třída
 public class Stones {
     Stones stone;
     Field field;
 
- public static void putStoneOnField(){
-     //pindík jde na políčko
+    String color;
+    int x;
+    int y;
+
+
+    public Stones(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int returnX(){
+        return this.x;
+    }
+    public int returnY(){
+        return this.y;
+    }
+
+ public static void moveTo(){
+
  }
 
- // na začátku hry rozestavit (nějakej for)
+  public  static void die(){
 
- //nadefinovat kam se může obecně hýbat? (nemůže dozadu atd) --pravidla?
-
- //nadefinovat dva druhy kamenů - 2 hráči
-
- public static void throwOutEnemysStone() {
-     // if stone narazí na nepřátelskýho, přeskočením vyhodí
- }
-
- public static void upgradeToQueen(){
-     //pokud dojde panáček na konec, promění se na dámu
- }
+  }
 
 }

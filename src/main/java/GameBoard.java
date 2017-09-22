@@ -7,7 +7,8 @@ public class GameBoard {
 
     public void beginGame(){
         generateBoard();
-
+        generateFields;
+        generateStones;
     }
 
     public void generateBoard(){
@@ -20,6 +21,13 @@ public class GameBoard {
             }
         }
 
+
+    }
+
+    public void generateFields(){
+
+    }
+    public void generateStones(){
 
     }
 }
