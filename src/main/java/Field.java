@@ -30,7 +30,7 @@ public class Field {
 
   public boolean isTheFieldAvailable(){
 
-
+     if ( )
   }
 
 
