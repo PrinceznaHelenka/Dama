@@ -1,12 +1,15 @@
+import java.awt.*;
 import java.lang.reflect.Field;
 
 public class Field {
   int x;
   int y;
+  Color color;
 
-  public Field(int x, int y) {
-      this.x = x;
-      this.y = y;
+  public Field(int i, int j, Color color) {
+      this.x = i;
+      this.y = j;
+      this.color = color;
   }
 
   public int returnX(){

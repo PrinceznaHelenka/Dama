@@ -1,34 +1,30 @@
+import java.awt.*;
 import java.lang.reflect.Field;
 
 
 //abstraktní třída
 public class Stones {
-    Stones stone;
-    Field field;
-
-    String color;
+    Color color;
     int x;
     int y;
 
+    Integer numberOfStones;
 
-    public Stones(int x, int y) {
-        this.x = x;
-        this.y = y;
+
+    public Stones(Integer numberOfStone, Color color) {
+        this.numberOfStones = numberOfStone; // pluje z radku 54 GameBoard
+        this.color = color; //pluje z radku 60-64 - getColorOfTheStone - GameBoard
     }
 
-    public int returnX(){
-        return this.x;
-    }
-    public int returnY(){
-        return this.y;
-    }
 
- public static void moveTo(){
+    public static void moveTo(){
 
  }
 
   public  static void die(){
 
   }
+
+
 
 }
