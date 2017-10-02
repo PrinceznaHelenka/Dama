@@ -68,7 +68,13 @@ public class GameBoard {
 
     public void setTheStonesOnTheBoard(){
 
-        setOfStones[numberOfTheStone].color
+        //setOfStones[numberOfTheStone].color.white
+
+        setOfStones[1].setOnBoard
+
+                public void setOnBoard(i, j){
+            //přiřazení souřadnice figurkám
+        }
 
 
     }

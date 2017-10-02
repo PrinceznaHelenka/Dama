@@ -19,11 +19,16 @@ public class Stones {
 
     public static void moveTo(){
 
- }
+        //asi nějaký přičítání souřadnic?
 
-  public  static void die(){
+    }
 
-  }
+    public  static void die(){
+
+        //setOfStones[1] = null;
+
+
+    }
 
 
 

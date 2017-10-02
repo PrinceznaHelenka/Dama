@@ -33,7 +33,7 @@ public class Field {
 
   public boolean isTheFieldAvailable(){
 
-     if ( )
+     //if (je políčko obsazený figurkou && je černý)
   }
 
 
