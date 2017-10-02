@@ -70,7 +70,7 @@ public class GameBoard {
 
         //setOfStones[numberOfTheStone].color.white
 
-        setOfStones[1].setOnBoard
+        //setOfStones[1].setOnBoard
 
                 public void setOnBoard(i, j){
             //přiřazení souřadnice figurkám
