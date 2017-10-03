@@ -8,8 +8,9 @@ public class Stones {
     int x;
     int y;
 
-    Integer numberOfStones;
+    Field fieldOfTheStone;
 
+    Integer numberOfStones;
 
     public Stones(Integer numberOfStone, Color color) {
         this.numberOfStones = numberOfStone; // pluje z radku 54 GameBoard

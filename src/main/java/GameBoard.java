@@ -13,7 +13,7 @@ public class GameBoard {
 
     Integer numberOfTheStone;
 
-    Stones stone = new Stones;
+    Field fieldOfTheStone;
 
 
     public void beginGame(){
@@ -68,19 +68,14 @@ public class GameBoard {
 
     public void setTheStonesOnTheBoard(){
 
-        //setOfStones[numberOfTheStone].color.white
+       // setOnBoard(i, j) setOfStones[numberOfTheStone]
 
-        //setOfStones[1].setOnBoard
+       // setOfStones[1].setOnBoard();
 
-                public void setOnBoard(i, j){
-            //přiřazení souřadnice figurkám
-        }
-
+        fieldOfTheStone = boardOfField[i][j];
 
     }
 
-
-
-
-
-}
+    public void setOnBoard(int i, int j) {
+        //přiřazení souřadnice figurkám
+    }
