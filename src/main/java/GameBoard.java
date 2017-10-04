@@ -4,21 +4,19 @@ import java.lang.reflect.Field;
 public class GameBoard {
 
     Field boardOfField[8][8];
-    Field field;
-    Stones setOfStones[16];
+    Stone setOfStones[16];
 
     int i;
     int j;
-    Color color;
 
     Integer numberOfTheStone;
 
-    Field fieldOfTheStone;
 
 
-    public void beginGame(){
+    public void beginTheGame(){
         generateBoard();
         generateStones();
+        setTheStonesOnTheBoard();
 
     }
 
@@ -52,7 +50,7 @@ public class GameBoard {
     public void generateStones() {
 
         for (numberOfTheStone = 0; numberOfTheStone < 16; numberOfTheStone++) {
-            setOfStones[numberOfTheStone] = new Stones(numberOfTheStone, getColorOfTheStone(numberOfTheStone));
+            setOfStones[numberOfTheStone] = new Stone(numberOfTheStone, getColorOfTheStone(numberOfTheStone));
 
             //do setOfSt dej kaminky s cislem a barvickou
         }
@@ -67,15 +65,25 @@ public class GameBoard {
     }
 
     public void setTheStonesOnTheBoard(){
+        int m;
+        int n;
+        for (m = 0; m<4; m++) {
+            setOfStones[m].setOnGameBoard(2*m, 0);
+        }
+        for (m = 0, n = 4; m<4 && n<8; m++, n++){
+            setOfStones[n].setOnGameBoard(2*m+1, 1);
+        }
+        for (m = 0, n = 8; m<4 && n<12; m++, n++){
+            setOfStones[n].setOnGameBoard(2*m, 6);
+        }
+        for (m = 0, n = 12; m<4 && n<16; m++, n++){
+            setOfStones[n].setOnGameBoard(2*m+1, 7);
+        }
 
-       // setOnBoard(i, j) setOfStones[numberOfTheStone]
+       //  setOfStones[0].setOnGameBoard(0,0);
 
-       // setOfStones[1].setOnBoard();
-
-        fieldOfTheStone = boardOfField[i][j];
 
     }
 
-    public void setOnBoard(int i, int j) {
-        //přiřazení souřadnice figurkám
+
     }

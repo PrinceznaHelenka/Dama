@@ -1,5 +1,4 @@
 import java.awt.*;
-import java.lang.reflect.Field;
 
 public class Field {
   int x;
@@ -19,7 +18,7 @@ public class Field {
       return this.y;
   }
 
-  Stones stone = null;
+  Stone stone = null;
 
   public boolean isThereAStone(){
       if (stone == null) {
@@ -31,9 +30,15 @@ public class Field {
   }
 
 
-  public boolean isTheFieldAvailable(){
 
-     //if (je políčko obsazený figurkou && je černý)
+  public boolean isTheFieldAvailableDefinedByColor(){
+      if (color == Color.black){
+          return false;
+      }
+      else {
+          return true;
+      }
+
   }
 
 

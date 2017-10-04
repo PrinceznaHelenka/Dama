@@ -1,4 +1,4 @@
-public class Men extends Stones{
+public class Men extends Stone {
 
     //pohyb
 }

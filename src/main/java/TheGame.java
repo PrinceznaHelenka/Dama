@@ -11,7 +11,8 @@ public class TheGame {
     public static void main(String [] args) {
         //ta všemocná!
         public  void play{
-            GameBoard.beginGame();
+            GameBoard.beginTheGame();
         }
+
     }
 }
