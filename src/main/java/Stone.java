@@ -12,7 +12,9 @@ public class Stone {
 
     public Stone(Integer numberOfStone, Color color) {
         this.numberOfStones = numberOfStone; // pluje z radku 54 GameBoard
-        this.color = color; //pluje z radku 60-64 - getColorOfTheStone - GameBoard
+        this.color = color;
+
+         //pluje z radku 60-64 - getColorOfTheStone - GameBoard
     }
 
 

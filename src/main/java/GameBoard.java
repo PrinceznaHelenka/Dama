@@ -3,7 +3,7 @@ import java.lang.reflect.Field;
 
 public class GameBoard {
 
-    Field boardOfField[8][8];
+   /* Field boardOfField[8][8];
     Stone setOfStones[16];
 
     int i;
@@ -84,6 +84,6 @@ public class GameBoard {
 
 
     }
-
+*/
 
     }
