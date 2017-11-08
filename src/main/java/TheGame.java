@@ -5,18 +5,7 @@ public class TheGame {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 Gui gui = new Gui();
-                gui.setVisible(true);
             }
         });
-    }
-
-
-
-
-    Integer orderOfPlayers;
-    GameBoard gameBoard;
-
-
-
-    }
-
+   }
+}
